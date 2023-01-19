@@ -93,7 +93,6 @@ section > h1 {
     text-align: center;
 }
 
- 
 
 section > p {
     font-family: var(--fonte-padrao);
@@ -151,8 +150,8 @@ strong {
 }
 
 aside > img {
-    height: 50%;
-    width: 50%;
+    height: 20%;
+    width: 80%;
     padding: 25px;
     padding-top: 4px;
     display: block;
