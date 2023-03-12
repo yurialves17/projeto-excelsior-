@@ -116,14 +116,6 @@ section > p {
    margin: 12px;
 }
 
-.topico > p {
-    display: none;
-}
-
-.topico:hover > p {
- display: block;
-}
-
 #about {
     background-color: #231508cc;
     color: white;
