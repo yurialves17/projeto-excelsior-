@@ -4,8 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+/*Versão Mobile First*/
 :root {
-    --cor01: #ddc8af;
+    --cor01: #f5dfc5;
     --cor02: #EC9045;
     --cor03: #713A11;
     --cor04: #231508;
@@ -21,7 +22,7 @@
 }
 
 body {
-    background-color: #dbc4a6e8;
+    background-color: var(--cor01);
    font-family: var(--fonte-padrao);
    margin: auto;
 }
@@ -101,13 +102,22 @@ section > p {
     padding: 20px;
 }
 
-.topico {
-    background-color:#713b11d2;
+#about > div > h2 {
+    background-image: linear-gradient(to right, #311903 , #aa5e24fa);
+    color: white;
+    font-family: var(--fonte-destaque);
+    padding: 3px;
+    margin-top: 15px;
+    border-radius: 6px 0px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.308);
+}
+
+#about {
+    background-color:#713b11e0;
     color: #e5d5c0;
     font-family: var(--fonte-destaque);
     border-radius: 6px ;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.288); 
-   
 }
 
 .topico > h2 {
@@ -116,16 +126,6 @@ section > p {
    margin: 12px;
 }
 
-#about {
-    background-color: #231508cc;
-    color: white;
-    font-family: var(--fonte-destaque);
-    font-style: italic;
-    font-weight: normal;
-    font-size: 1.9em;
-    border-radius: 7px 7px 0px 0px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.288);
-}
 
 .postagens > h2 {
     background-image: linear-gradient(to right, #311903 , #aa5e24fa);
@@ -141,16 +141,18 @@ strong {
     color: var(--cor03);
 }
 
-aside > img {
+aside > img { 
     height: 20%;
-    width: 80%;
+    width: 70%;
     padding: 25px;
     padding-top: 4px;
     display: block;
     margin: auto;
+    
 }
 
-picture >img {
+picture > img {
+    background-color: var(--cor03);
     height: 50%;
     width: 50%;
     padding: 25px;
@@ -158,3 +160,6 @@ picture >img {
     display: block;
     margin: auto;
 }
+
+ 
+
