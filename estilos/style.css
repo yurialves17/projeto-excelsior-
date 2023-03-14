@@ -161,5 +161,10 @@ picture > img {
     margin: auto;
 }
 
+footer {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-style: italic;
+}
  
 
